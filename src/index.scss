@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    font-family: 'Inter';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #4682b4;
+}
+
+* {
+    font-family: 'Inter';
+}
+
+.App {
+    display: flex;
+    justify-content: center;
+    .container {
+        margin: 20px 0;
+        width: 695px;
+        height: 620px;
+        background-color: #f8f8f8;
+        .container_main {
+            display: flex;
+            justify-content: space-between;
+            height: 430px;
+           
+        }
+    }
+}
